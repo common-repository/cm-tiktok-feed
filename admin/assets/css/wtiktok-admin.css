@@ -1,0 +1,493 @@
+.wtik-container .donate {
+    padding: 5px 15px 10px;
+    display: inline-block;
+    position: relative;
+    color: #000;
+    background: #ffd751;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #b4b4b4;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.wtik-container .donate a {
+    outline: 0;
+    cursor: pointer
+}
+
+.wtik-container .donate span:before {
+    color: #ce1f00;
+    font: 400 20px/1 dashicons;
+    font-family: dashicons;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    line-height: 1;
+    content: '\f487';
+    position: relative;
+    display: inline-block;
+    top: 4px;
+    margin-right: 4px;
+}
+
+.wtik-container .pressthis a, .wtik-container .pressthis-bookmarklet a,
+.wtik-container .pressthis a:active, .wtik-container .pressthis-bookmarklet a:active,
+.wtik-container .pressthis a:focus, .wtik-container .pressthis-bookmarklet a:focus,
+.wtik-container .pressthis a:hover, .wtik-container .pressthis-bookmarklet a:hover {
+    cursor: pointer;
+    background: #53b5d9;
+    border: 1px solid #0074a2;
+    color: #ffffff;
+    font-weight: bold
+}
+
+.wtik-container .jr_insta_error {
+    border-left: 4px solid #dd3d36;
+    -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    padding: 5px 12px;
+}
+
+.wtik-container .wtik-radio {
+    margin-right: 20px
+}
+
+.wtik-container .wtik-search-for-container {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.wtik-container .wtik-seach-for {
+    width: 90px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.wtik-container .wtik-advanced {
+    text-decoration: none;
+    border: none
+}
+
+.wtik-container .wtik-advanced:focus {
+    outline: 0;
+    border: none;
+    box-shadow: none
+}
+
+.wtik-container .wtik-advanced-input div {
+    border: 1px solid #cfcfcf;
+    padding: 10px;
+    margin: 25px 0 0;
+}
+
+.wtik-container .wtik-advanced-input .wtik-advanced-title {
+    margin: -22px 0 0 0;
+    background-color: white;
+    width: 160px;
+    padding: 3px 10px;
+    border: 1px solid #cfcfcf;
+}
+
+.wtik-container .wtik-description {
+    color: #777;
+    font-size: smaller;
+    clear: both;
+    display: block;
+    margin-top: 5px;
+}
+
+.wtik-container .wtik-description.hide-media-library, .wtik-container .wtik-description.hide-instagram {
+    display: none
+}
+
+.wtik-container .switch {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    width: 45px;
+    height: 24px;
+}
+
+.wtik-container .switch input {
+    display: none;
+}
+
+.wtik-container .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.wtik-container .slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #e5e5e5;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.wtik-container input:checked + .slider {
+    background-color: #0085ba;
+}
+
+.wtik-container input:focus + .slider {
+    box-shadow: 0 0 1px #0085ba;
+}
+
+.wtik-container input:checked + .slider:before {
+    -webkit-transform: translateX(22px);
+    -ms-transform: translateX(22px);
+    transform: translateX(22px);
+}
+
+.wtik-container .slider.round {
+    border-radius: 34px;
+}
+
+.wtik-container .slider.round:before {
+    border-radius: 50%;
+}
+
+.wtik-container .donate-buttons {
+    text-align: center
+}
+
+.wtik-container .donate-button-link {
+    cursor: pointer
+}
+
+.wtik-btn-tiktok-account {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+    font-weight: 600;
+    display: inline-block;
+    background-color: #4267B2;
+    box-shadow: none;
+    border: 0;
+}
+
+.btn-instagram-account-disabled {
+    opacity: 0.5;
+}
+
+.instagram-account-pro {
+    padding: 5px;
+}
+
+.wtik-spinner {
+    background: url(../img/spinner.gif) no-repeat;
+    background-size: 20px 20px;
+    display: inline-block;
+    visibility: hidden;
+    float: right;
+    vertical-align: middle;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    width: 20px;
+    height: 20px;
+    margin: 4px 10px 0;
+}
+
+.wtik-text-token {
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.00) !important;
+}
+
+.wtik-help-text {
+    font-size: 16px;
+    margin: 10px 0px 0px 10px;
+}
+
+.wtik-help-text p {
+    font-size: 16px;
+}
+
+i.wtik-shortcode-icon {
+    background: url(../img/wtik_icon_shortcode.png) center no-repeat;
+}
+
+/* MODAL popup*/
+.wtik_accounts_modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    max-width: 100%;
+    height: 400px;
+    max-height: 100%;
+    z-index: 1010;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: white;
+    border: 1px solid #32323280;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.5);
+    box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.5);
+}
+
+#wtik_add_account_modal {
+    height: 230px !important;
+}
+
+.wtik_closed {
+    display: none !important;
+}
+
+.wtik_modal_content {
+    position: initial;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    padding: 15px 20px 15px 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.wtik_modal_header {
+    position: initial;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 20px;
+    padding: 15px 20px 25px 20px;
+    overflow: hidden;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.wtik_modal_overlay {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wtik-overlay-spinner {
+    background: url(../img/spinner.svg) no-repeat;
+    background-size: 100px 100px;
+    vertical-align: middle;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    visibility: hidden;
+    z-index: 1001;
+}
+
+.is-active {
+    visibility: visible !important;
+}
+
+.wtik-row {
+    width: 95%;
+    min-width: 1120px;
+    display: flex;
+}
+
+.wtik-col-1 {
+    float: left;
+    width: 20%;
+}
+
+.wtik-col-2 {
+    float: left;
+    width: 80%;
+}
+
+.wtik-col-full {
+    float: left;
+    width: 100%;
+}
+
+.wtik-row-style {
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.wtik-col1-style {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.wtik-col-full-style {
+    height: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.wtik-col1-style img {
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.wtik-col2-style {
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.wtik-col2-style p {
+    vertical-align: middle;
+}
+
+.wtik-page-title {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.wtik-page-title h1 {
+    vertical-align: middle;
+    color: #000000;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.wtik-div-added {
+    display: inline-block;
+    background-color: #d3dec1;
+    border: 1px solid green;
+    border-radius: 5px;
+    text-align: center;
+    word-break: break-word;
+    width: 100px;
+    float: right;
+    font-size: 12px;
+    line-height: 1.1;
+    padding: 5px 0px;
+}
+
+.wtik-widgets-container {
+    padding: 20px 0 0 0;
+    /*margin-right: 20px;*/
+}
+
+.wtik-col-16 {
+    float: left;
+    width: 16.66666666%;
+}
+
+.wtik-demo-widgets {
+    width: auto;
+    padding: 15px;
+    margin: 0 20px 20px 0;
+    background: #fafafa;
+    color: #23282d;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+}
+
+.wtik-demo-widgets .wtik-demo-widefat {
+    color: black;
+    font-family: monospace;
+    text-align: center;
+}
+
+.wtik-demo-shortcode {
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.wtik-demo-shortcode p {
+    margin: 0 !important;
+    padding: 0 10px 10px 10px !important;
+}
+
+.wtik-demo-shortcode input {
+    padding: 0 !important;
+    width: 95%;
+    font-size: 12px;
+}
+
+.wtik-demo-shortcode span.wtik_demo_pro:after {
+    display: inline-block;
+    position: relative;
+    content: 'PRO';
+    background: #ff5722;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 10px;
+    line-height: 1;
+    font-style: normal;
+    padding: 4px 6px;
+    margin-left: 4px;
+    vertical-align: top;
+    top: 0;
+    left: 0;
+    right: auto;
+    z-index: 11;
+    cursor: pointer;
+}
+
+.wtik-add-form {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.wtik-add-form label {
+    vertical-align: top;
+    margin-top: 4px;
+}
+
+.wtik-add-form label:first-of-type {
+    padding-right: 10px;
+}
+
+.wtik-table > tbody > tr > td {
+    background-color: white;
+    vertical-align: baseline;
+    font-size: 15px;
+}
+
+.wtik-table > thead > tr > th {
+    font-weight: bold;
+    background-color: #e8e8e8;
+}
+
+.wtik-table td.profile-picture {
+    width: 80px;
+    text-align: center;
+}
+
+.wtik-table td.profile-picture img {
+    border-radius: 100%;
+}
+.wtik-table td .wtik-delete-account {
+    font-size: 15px;
+}
